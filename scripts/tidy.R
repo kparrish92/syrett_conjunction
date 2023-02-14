@@ -29,7 +29,8 @@ exp_one %>%
        The bars preresent the mean rating of AND and BUT in sentences 
        with both OPPOSITE and SAME montonicity and in NEUTRAL and 
        SUPPORTING contexts. The error bars were calculated using +/- 1 
-       standard deviation from the mean")
+       standard deviation from the mean") +
+  ggsave(here("plots", "exp_one.png"))
 
 
 exp_two %>%
@@ -49,7 +50,8 @@ exp_two %>%
        The bars preresent the mean rating of AND and BUT in sentences 
        with both WEAK-STRONG and STRONG-WEAK scalar order and when  
        ONLY was present or not present. The error bars were calculated using +/- 1 
-       standard deviation from the mean")
+       standard deviation from the mean") +
+  ggsave(here("plots", "exp_two.png"))
 
 
 mod_one = brm(as.integer(Rating) ~ conjunct*monotonicity*context + (1 | item.number) + 

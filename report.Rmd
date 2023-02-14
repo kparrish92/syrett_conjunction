@@ -1,0 +1,22 @@
+---
+title: "Analysis for 'Factors Affecting the Acceptability of And and But In Quantifier Conjunction'"
+output: html_document
+date: '2023-02-14'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r, include=FALSE}
+library(here)
+```
+
+```{r}
+knitr::include_graphics(here("plots", "exp_one.png"))
+```
+
+
+```{r}
+knitr::include_graphics(here("plots", "exp_two.png"))
+```
