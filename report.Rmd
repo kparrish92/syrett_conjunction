@@ -20,3 +20,24 @@ knitr::include_graphics(here("plots", "exp_one.png"))
 ```{r}
 knitr::include_graphics(here("plots", "exp_two.png"))
 ```
+
+# Experiment 1 Forest Plot
+
+```{r}
+knitr::include_graphics(here("plots", "forest_plot_one.png"))
+```
+
+```{r}
+knitr::include_graphics(here("plots", "es_exp_one.png"))
+```
+
+# Experiment 2 Forest Plot
+```{r}
+knitr::include_graphics(here("plots", "forest_plot_two.png"))
+```
+
+```{r}
+knitr::include_graphics(here("plots", "es_exp_two.png"))
+```
+
+
